@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900 !important;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-weight: 800;
+}
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  z-index: 2;
+  position: relative;
+}
+.bg-cover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 224, 254, 0.7), rgba(17, 7, 254, 0.7));
+  z-index: -1;
+}
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 14px 22px;
+  transition: all 0.3s ease;
+}
+.btn-main {
+  background: linear-gradient(
+    to right,
+    rgba(0, 224, 254, 0.9),
+    rgba(17, 7, 254, 0.7)
+  );
+  border-radius: 100px;
+  border: none;
+  color: #fff;
+  font-weight: 600px;
+}
+.btn:hover {
+  color: #fff;
+  transform: translateY(-5px);
+}
+.video-btn {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 224, 254, 0.9),
+    rgba(17, 7, 254, 0.7)
+  );
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 100px;
+}
+.navbar {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  background: -webkit-linear-gradient(
+    rgba(0, 224, 254, 0.9),
+    rgba(17, 7, 254, 0.7)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-intro {
+  margin-bottom: 40px;
+}
+.section-intro .divider {
+  height: 4px;
+  width: 70px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 224, 254, 0.7),
+    rgba(17, 7, 254, 0.7)
+  );
+  margin: 16px auto;
+}
+.service .service-img {
+  position: relative;
+}
+.service .service-img .icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 224, 254, 0.7),
+    rgba(17, 7, 254, 0.7)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
