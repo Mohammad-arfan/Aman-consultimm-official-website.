@@ -92,6 +92,15 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.navbar-brand h1 {
+  background: -webkit-linear-gradient(
+    rgba(17, 7, 254, 0.7),
+    rgba(0, 224, 254, 0.7)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .section-intro {
   margin-bottom: 40px;
 }
@@ -125,4 +134,34 @@ section {
   bottom: -35px;
   left: 50%;
   transform: translateX(-50%);
+}
+/* .features {
+  border: none;
+  border-radius: 25px;
+  background-color: antiquewhite;
+  margin: 12px;
+  padding: 10px;
+} */
+.features i {
+  background: -webkit-linear-gradient(
+    rgba(0, 224, 254, 0.9),
+    rgba(17, 7, 254, 0.7)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 54px;
+}
+.review {
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+}
+.review .person {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+  padding-bottom: 18px;
+}
+.review .person img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
 }
