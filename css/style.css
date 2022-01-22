@@ -165,3 +165,28 @@ section {
   height: 75px;
   border-radius: 50%;
 }
+footer h1 {
+  background: -webkit-linear-gradient(
+    rgba(241, 247, 248, 0.7),
+    rgba(0, 4, 254, 0.9)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer a i {
+  background: -webkit-linear-gradient(
+    rgba(0, 224, 254, 0.9),
+    rgba(17, 7, 254, 0.7)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 34px;
+}
+footer a i:hover {
+  background: -webkit-linear-gradient(
+    rgba(7, 143, 254, 0.7),
+    rgba(254, 38, 0, 0.9)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
